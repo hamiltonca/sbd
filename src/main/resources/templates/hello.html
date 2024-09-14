@@ -1,0 +1,10 @@
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello</title>
+</head>
+<body>
+<pre>Hello <span th:text="${name}"> Guest</span></pre>
+<div th:object="${account}"><pre>Your agent is <span th:text="${name}"></span></pre></div>
+</body>
+</html>
